@@ -17,3 +17,22 @@ c:\users\worm_\onedrive\documents\visual studio 2015\Projects\Tower\Tower\obj\De
 C:\Users\worm_\OneDrive\Documents\Visual Studio 2015\Projects\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\Content\earth_bg.png
 C:\Users\worm_\OneDrive\Documents\Visual Studio 2015\Projects\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\Content\earth_bg.xnb
 C:\Users\worm_\OneDrive\Documents\Visual Studio 2015\Projects\Tower\Tower\obj\Debug\Tower.csprojResolveAssemblyReference.cache
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\Content\earth_bg.png
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\Content\earth_bg.xnb
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\libSDL2-2.0.0.dylib
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\libopenal.1.dylib
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\Tower.exe
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\Tower.pdb
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\obj\Debug\Tower.csprojResolveAssemblyReference.cache
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\obj\Debug\Tower.exe
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\obj\Debug\Tower.pdb

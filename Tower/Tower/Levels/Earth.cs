@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework;
 
 namespace Tower.Levels
 {
-    public class Earth
+    public class Earth : GSM.IGameState
     {
         private Texture2D background;
         private Game1 game;
@@ -20,12 +20,22 @@ namespace Tower.Levels
             this.background = game.Content.Load<Texture2D>("earth_bg");
         }
 
-        public void Update()
+        public override void OnPop()
         {
 
         }
 
-        public void Draw(SpriteBatch sb)
+        public override void OnPush()
+        {
+
+        }
+
+        public override void Update(GameTime gt)
+        {
+
+        }
+
+        public override void Draw(GameTime gt, SpriteBatch sb)
         {
             sb.Begin();
             sb.Draw(background, new Vector2(0, 0), Color.SkyBlue);

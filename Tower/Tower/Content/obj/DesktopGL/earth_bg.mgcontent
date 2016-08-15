@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/worm_/OneDrive/Documents/Visual Studio 2015/Projects/Tower/Tower/Content/earth_bg.png</SourceFile>
+  <SourceFile>C:/Users/worm_/Desktop/Tower Assets/GIT/Tower/Tower/Content/earth_bg.png</SourceFile>
   <SourceTime>2016-08-12T23:39:34.0984057+10:00</SourceTime>
-  <DestFile>C:/Users/worm_/OneDrive/Documents/Visual Studio 2015/Projects/Tower/Tower/Content/bin/DesktopGL/earth_bg.xnb</DestFile>
-  <DestTime>2016-08-13T00:04:13.2853429+10:00</DestTime>
+  <DestFile>C:/Users/worm_/Desktop/Tower Assets/GIT/Tower/Tower/Content/bin/DesktopGL/earth_bg.xnb</DestFile>
+  <DestTime>2016-08-15T15:16:49.0148779+10:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-08-01T10:43:56+10:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

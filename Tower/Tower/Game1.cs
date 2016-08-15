@@ -14,7 +14,7 @@ namespace Tower
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         InputManager inputManager;
-        Earth earth;
+        //Earth earth;
 
         public Game1()
         {
@@ -33,7 +33,7 @@ namespace Tower
             // TODO: Add your initialization logic here
             GSM.GameStateManager.Initialise(this);
             inputManager = new InputManager();
-            earth = new Earth(this, spriteBatch);
+            //earth = new Earth(this, spriteBatch);
 
             base.Initialize();
         }
@@ -51,9 +51,10 @@ namespace Tower
             graphics.IsFullScreen = true;
 
             graphics.ApplyChanges();
-            
-            //Initialize Game state manager eg. GSM.GameStateManager.SetState("SPLASH", new SplashState());
 
+            //Initialize Game state manager eg. GSM.GameStateManager.SetState("SPLASH", new SplashState());
+            GSM.GameStateManager.SetState("EARTH", new Earth(this, spriteBatch));
+            GSM.GameStateManager.PushState("EARTH");
         }
 
         /// <summary>
@@ -78,7 +79,7 @@ namespace Tower
             //Update Inputs
             inputManager.Update();
 
-            earth.Update();
+            //earth.Update(gameTime);
 
             // TODO: Add your update logic here
             GSM.GameStateManager.UpdateGameStates(gameTime);
@@ -94,7 +95,7 @@ namespace Tower
         {
             GraphicsDevice.Clear(Color.White);
 
-            earth.Draw(spriteBatch);
+            //earth.Draw(gameTime, spriteBatch);
 
             //Draw game current state
             GSM.GameStateManager.DrawGameStates(gameTime, spriteBatch);
