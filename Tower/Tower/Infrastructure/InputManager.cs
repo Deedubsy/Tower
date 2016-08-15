@@ -74,7 +74,7 @@ namespace Tower.Infrastructure
 
         #region Mouse
 
-        public bool MouseLeftBtnPressed(params Keys[] keys)
+        public bool MouseLeftBtnPressed()
         {
             if (currentMouseState.LeftButton == ButtonState.Pressed &&
                 prevMouseState.LeftButton == ButtonState.Released)
@@ -83,7 +83,7 @@ namespace Tower.Infrastructure
                 return false;
         }
 
-        public bool MouseLeftBtnDown(params Keys[] keys)
+        public bool MouseLeftBtnDown()
         {
             if (currentMouseState.LeftButton == ButtonState.Pressed)
                 return true;
@@ -91,7 +91,7 @@ namespace Tower.Infrastructure
                 return false;
         }
 
-        public bool MouseLeftBtnUp(params Keys[] keys)
+        public bool MouseLeftBtnUp()
         {
             if (prevMouseState.LeftButton == ButtonState.Pressed &&
                 currentMouseState.LeftButton == ButtonState.Released)
@@ -100,7 +100,7 @@ namespace Tower.Infrastructure
                 return false;
         }
 
-        public bool MouseRightBtnPressed(params Keys[] keys)
+        public bool MouseRightBtnPressed()
         {
             if (currentMouseState.RightButton == ButtonState.Pressed &&
                 prevMouseState.RightButton == ButtonState.Released)
@@ -109,7 +109,7 @@ namespace Tower.Infrastructure
                 return false;
         }
 
-        public bool MouseRightBtnDown(params Keys[] keys)
+        public bool MouseRightBtnDown()
         {
             if (currentMouseState.RightButton == ButtonState.Pressed)
                 return true;
@@ -117,7 +117,7 @@ namespace Tower.Infrastructure
                 return false;
         }
 
-        public bool MouseRightBtnUp(params Keys[] keys)
+        public bool MouseRightBtnUp()
         {
             if (prevMouseState.RightButton == ButtonState.Pressed &&
                 currentMouseState.RightButton == ButtonState.Released)

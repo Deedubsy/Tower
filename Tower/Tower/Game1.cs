@@ -33,6 +33,7 @@ namespace Tower
             // TODO: Add your initialization logic here
             GSM.GameStateManager.Initialise(this);
             inputManager = new InputManager();
+            this.IsMouseVisible = true;
             //earth = new Earth(this, spriteBatch);
 
             base.Initialize();

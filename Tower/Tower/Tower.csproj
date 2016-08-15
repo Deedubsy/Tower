@@ -41,9 +41,11 @@
   <ItemGroup>
     <Compile Include="Game1.cs" />
     <Compile Include="GameStateManager\GameStateManager.cs" />
+    <Compile Include="GameStates\Menu.cs" />
     <Compile Include="Infrastructure\InputManager.cs" />
     <Compile Include="Infrastructure\Pathfinding.cs" />
     <Compile Include="Infrastructure\SpriteManager.cs" />
+    <Compile Include="Infrastructure\TextManager.cs" />
     <Compile Include="Levels\Earth.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
