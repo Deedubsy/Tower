@@ -108,8 +108,13 @@
       <Link>MonoGame.Framework.dll.config</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Content\Arial.xnb" />
+    <None Include="Content\Arial_14.xnb" />
+    <None Include="Content\Arial_18.xnb" />
+    <None Include="Content\Arial_22.xnb" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\courtTemplate.png" />
     <Content Include="Content\earth_bg.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

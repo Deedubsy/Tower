@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Tower.GameStates;
 using Tower.Infrastructure;
 using Tower.Levels;
 
@@ -50,12 +51,15 @@ namespace Tower
 
             // TODO: use this.Content to load your game content here
             graphics.IsFullScreen = true;
+            graphics.PreferredBackBufferWidth = 1980;
+            graphics.PreferredBackBufferHeight = 1080;
 
             graphics.ApplyChanges();
 
             //Initialize Game state manager eg. GSM.GameStateManager.SetState("SPLASH", new SplashState());
-            GSM.GameStateManager.SetState("EARTH", new Earth(this, spriteBatch));
-            GSM.GameStateManager.PushState("EARTH");
+            GSM.GameStateManager.SetState("SINGLEPLAYER", new Earth(this, spriteBatch));
+            GSM.GameStateManager.SetState("MENU", new Menu(this, inputManager));
+            GSM.GameStateManager.PushState("MENU");
         }
 
         /// <summary>

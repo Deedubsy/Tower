@@ -13,11 +13,16 @@ namespace Tower.Levels
     {
         private Texture2D background;
         private Game1 game;
+        private float screenWidth;
+        private float screenHeight;
 
         public Earth(Game1 oGame, SpriteBatch sb)
         {
             this.game = oGame;
-            this.background = game.Content.Load<Texture2D>("earth_bg");
+            this.background = game.Content.Load<Texture2D>("courtTemplate");
+
+            this.screenHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+            this.screenWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
         }
 
         public override void OnPop()
@@ -38,7 +43,11 @@ namespace Tower.Levels
         public override void Draw(GameTime gt, SpriteBatch sb)
         {
             sb.Begin();
-            sb.Draw(background, new Vector2(0, 0), Color.SkyBlue);
+
+            float x = (screenWidth / 2) - (background.Width + (background.Width / 4));
+            float y = (screenHeight / 2) - (background.Height / 2);
+
+            sb.Draw(background, new Vector2(x, y), null, Color.White, 0.0f, new Vector2(0, 0), 0.55f, SpriteEffects.None, 0.0f);
             sb.End();
         }
     }

@@ -36,3 +36,5 @@ C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\M
 C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\obj\Debug\Tower.csprojResolveAssemblyReference.cache
 C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\obj\Debug\Tower.exe
 C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\obj\Debug\Tower.pdb
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\Content\courtTemplate.xnb
+C:\Users\worm_\Desktop\Tower Assets\GIT\Tower\Tower\bin\DesktopGL\AnyCPU\Debug\Content\Arial.xnb

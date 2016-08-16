@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/worm_/Desktop/Tower Assets/GIT/Tower/Tower/Content/Arial.spritefont</SourceFile>
+  <SourceTime>2016-08-16T21:30:44.3229348+10:00</SourceTime>
+  <DestFile>C:/Users/worm_/Desktop/Tower Assets/GIT/Tower/Tower/Content/bin/DesktopGL/Arial.xnb</DestFile>
+  <DestTime>2016-08-16T21:30:50.0164568+10:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2016-08-01T10:43:56+10:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2016-08-01T10:43:56+10:00</ProcessorTime>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

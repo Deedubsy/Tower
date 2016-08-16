@@ -5,5 +5,7 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/worm_/Desktop/Tower Assets/GIT/Tower/Tower/Content/earth_bg.png</File>
+    <File>C:/Users/worm_/Desktop/Tower Assets/GIT/Tower/Tower/Content/courtTemplate.png</File>
+    <File>C:/Users/worm_/Desktop/Tower Assets/GIT/Tower/Tower/Content/Arial.spritefont</File>
   </SourceFiles>
 </SourceFileCollection>
